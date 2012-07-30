@@ -126,7 +126,7 @@
 			<option name="teaserbox_title">
 				<categoryname>teaserbox.general</categoryname>
 				<optiontype>text</optiontype>
-				<defaultvalue><![CDATA[TeaserBox by <strong>ALPA Network</strong>, modified by <strong><a href="http://kittblog.de">KittBlog.de</a></strong>]]></defaultvalue>
+				<defaultvalue><![CDATA[TeaserBox by <strong>ALPA Network</strong>, modified by <strong><a href="http://kittblog.com">KittBlog.com</a></strong>]]></defaultvalue>
 				<showorder>3</showorder>
 			</option>
 			<option name="teaserbox_height">
