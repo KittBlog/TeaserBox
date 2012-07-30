@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="de.kittblog.wcf.teaserbox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+<package name="de.kittblog.wcf.teaserbox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
 		<packagename>TeaserBox</packagename>
 		<packagedescription>Fügt dem WoltLab® Community Framework einen Teaser hinzu, in dem bis zu 5 Grafiken eingebunden werden können.</packagedescription>
 		<isunique>0</isunique>
-		<version>1.1.0 pl 1</version>
-		<date>2011-09-14</date>
+		<version>1.1.1</version>
+		<date>2012-08-XX</date>
 		<plugin>com.woltlab.wcf.data.page</plugin>
 		<isunique>1</isunique>
 	</packageinformation>
 
 	<authorinformation>
 		<author>Matthias Kittsteiner</author>
-		<authorurl>http://kittblog.de</authorurl>
+		<authorurl>http://kittblog.com</authorurl>
 	</authorinformation>
 
 	<requiredpackages>
@@ -49,8 +49,18 @@
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>		
 	</instructions>
+
 	<instructions type="update" fromversion="1.1.0">
 		<!-- files -->
 		<files>files.tar</files>
+	</instructions>
+
+	<instructions type="update" fromversion="1.1.0 pl 1">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+
+		<!-- config -->
+		<options>options.xml</options>
 	</instructions>
 </package>
