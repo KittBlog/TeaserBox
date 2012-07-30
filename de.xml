@@ -48,12 +48,12 @@
 		<item name="wcf.acp.option.category.teaserbox.teaser20"><![CDATA[Teaser 20]]></item>
 		<item name="wcf.acp.option.category.teaserbox.teaser20.description"><![CDATA[]]></item>
 		
-		<item name="wcf.acp.option.teaserbox_active"><![CDATA[Teaserbox aktiv?]]></item>
-		<item name="wcf.acp.option.teaserbox_active.description"><![CDATA[Aktiviert oder deaktiviert die Teaserbox.]]></item>
+		<item name="wcf.acp.option.teaserbox_active"><![CDATA[TeaserBox aktiv?]]></item>
+		<item name="wcf.acp.option.teaserbox_active.description"><![CDATA[Aktiviert oder deaktiviert die TeaserBox.]]></item>
 		<item name="wcf.acp.option.teaserbox_title"><![CDATA[Titel]]></item>
-		<item name="wcf.acp.option.teaserbox_title.description"><![CDATA[Geben Sie hier den Titel der Teaserbox ein. Es kann HTML verwendet werden. Wenn das Feld leer gelassen wird, wird keine Titelleiste angezeigt.]]></item>
+		<item name="wcf.acp.option.teaserbox_title.description"><![CDATA[Geben Sie hier den Titel der TeaserBox ein. Es kann HTML verwendet werden. Wenn das Feld leer gelassen wird, wird keine Titelleiste angezeigt.]]></item>
 		<item name="wcf.acp.option.teaserbox_height"><![CDATA[Höhe]]></item>
-		<item name="wcf.acp.option.teaserbox_height.description"><![CDATA[Geben Sie hier in Pixeln an, wie hoch die Teaserbox sein soll.]]></item>
+		<item name="wcf.acp.option.teaserbox_height.description"><![CDATA[Geben Sie hier in Pixeln an, wie hoch die TeaserBox sein soll.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange"><![CDATA[Teaser automatisch wechseln]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange.description"><![CDATA[Geben Sie hier an, ob der Teaser automatisch gewechselt werden soll.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChangeInterval"><![CDATA[Wechsel-Intervall]]></item>
