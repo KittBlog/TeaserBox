@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.kittblog.wcf.teaserbox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename>TeaserBox</packagename>
+		<packagedescription>Fügt dem WoltLab® Community Framework einen Teaser hinzu, in dem bis zu 5 Grafiken eingebunden werden können.</packagedescription>
+		<isunique>0</isunique>
+		<version>1.1.0 pl 1</version>
+		<date>2011-09-14</date>
+		<plugin>com.woltlab.wcf.data.page</plugin>
+		<isunique>1</isunique>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Matthias Kittsteiner</author>
+		<authorurl>http://kittblog.de</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage file="requirements/com.optodoxie.wcf.optiontype.colorchooser.tar.gz" minversion="1.1.0 beta 2">com.optodoxie.wcf.optiontype.colorchooser</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.community.wcf.option.standaloneapplicationselect.tar.gz">com.woltlab.community.wcf.option.standaloneapplicationselect</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+
+		<!-- config -->
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.1">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		
+		<!-- config -->
+		<options>options.xml</options>
+
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>		
+	</instructions>
+	<instructions type="update" fromversion="1.1.0">
+		<!-- files -->
+		<files>files.tar</files>
+	</instructions>
+</package>
