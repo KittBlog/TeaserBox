@@ -165,3 +165,6 @@ pip-log.txt
 # specific
 requirements
 .idea
+.tar
+.tgz
+.tar.gz
