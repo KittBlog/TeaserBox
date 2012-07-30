@@ -1,4 +1,3 @@
-@charset "utf-8";
 .teaserBoxContent {
 	overflow: hidden;
 	width: 100%;
@@ -34,14 +33,9 @@ ul.teaserBoxNavigation li {
 	opacity: 0.8;
 	float: right;
 	width: 80%;
-	-moz-border-radius-topleft: 10px !important;
-	-webkit-border-top-left-radius: 10px !important;
-	-moz-border-radius-bottomleft: 10px !important;
-	-webkit-border-bottom-left-radius: 10px !important;
-	-moz-border-radius-topright: 0 !important;
-	-webkit-border-top-right-radius: 0 !important;
-	-moz-border-radius-bottomright: 0 !important;
-	-webkit-border-bottom-right-radius: 0 !important;
+	-webkit-border-radius: 10px 0 0 10px !important;
+	-moz-border-radius: 10px 0 0 10px !important;
+	border-radius: 10px 0 0 10px !important;
 }
 ul.teaserBoxNavigation li.activeTeaser {
 	width: 100%;
