@@ -5,7 +5,7 @@
 		<packagedescription>Fügt dem WoltLab® Community Framework einen Teaser hinzu, in dem bis zu 5 Grafiken eingebunden werden können.</packagedescription>
 		<isunique>0</isunique>
 		<version>1.1.1</version>
-		<date>2012-08-XX</date>
+		<date>2012-08-00</date>
 		<plugin>com.woltlab.wcf.data.page</plugin>
 		<isunique>1</isunique>
 	</packageinformation>
@@ -28,6 +28,7 @@
 
 		<!-- config -->
 		<options>options.xml</options>
+		<groupoptions>groupoptions.xml</groupoptions>
 		<eventlistener>eventlistener.xml</eventlistener>
 
 		<!-- languages -->
@@ -43,6 +44,7 @@
 		
 		<!-- config -->
 		<options>options.xml</options>
+		<groupoptions>groupoptions.xml</groupoptions>
 
 		<!-- languages -->
 		<languages languagecode="de">de.xml</languages>
@@ -62,5 +64,6 @@
 
 		<!-- config -->
 		<options>options.xml</options>
+		<groupoptions>groupoptions.xml</groupoptions>
 	</instructions>
 </package>

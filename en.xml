@@ -392,6 +392,11 @@
 		<item name="wcf.acp.option.teaserbox_teaser20_bgcolor"><![CDATA[Background color]]></item>
 		<item name="wcf.acp.option.teaserbox_teaser20_bgcolor.description"><![CDATA[Choose the background color for the teaser.]]></item>
 	</category>
+
+	<category name="wcf.acp.group.option">
+		<item name="wcf.acp.group.option.user.board.teaserBox.canView"><![CDATA[Can view TeaserBox]]></item>
+		<item name="wcf.acp.group.option.user.board.teaserBox.canView.description"><![CDATA[Members of this user group can view the teaser.]]></item>
+	</category>
 	
 	<category name="wcf.teaserBox">
 		<item name="wcf.teaserBox.open"><![CDATA[Open TeaserBox]]></item>
