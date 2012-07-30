@@ -34,11 +34,11 @@ class TeaserBoxIndexPageListener implements EventListener {
 				continue;
 
 			$this->teaserBoxData[] = array(
-			    'link' => constant('TEASERBOX_TEASER' . $i . '_LINK'),
-			    'title' => constant('TEASERBOX_TEASER' . $i . '_TITLE'),
-			    'image' => constant('TEASERBOX_TEASER' . $i . '_IMAGE'),
-			    'align' => constant('TEASERBOX_TEASER' . $i . '_ALIGN'),
-			    'bgcolor' => constant('TEASERBOX_TEASER' . $i . '_BGCOLOR')
+				'link' => constant('TEASERBOX_TEASER' . $i . '_LINK'),
+				'title' => constant('TEASERBOX_TEASER' . $i . '_TITLE'),
+				'image' => constant('TEASERBOX_TEASER' . $i . '_IMAGE'),
+				'align' => constant('TEASERBOX_TEASER' . $i . '_ALIGN'),
+				'bgcolor' => constant('TEASERBOX_TEASER' . $i . '_BGCOLOR')
 			);
 		}
 
@@ -76,7 +76,7 @@ class TeaserBoxIndexPageListener implements EventListener {
 		}
 
 		WCF::getTPL()->append('specialStyles',
-			'<link type="text/css" rel="stylesheet" href="' . RELATIVE_WCF_DIR . 'style/teaserBox.css" />' .
+			'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/teaserBox.css" />'.
 			'<style type="text/css">
 			<!--
 			.teaserBoxContent, ul.teaserBoxTeaser li a {
@@ -99,7 +99,7 @@ class TeaserBoxIndexPageListener implements EventListener {
 			-->
 			</style>'
 		);
-		WCF::getTPL()->append('additionalTopContents', WCF::getTPL()->fetch('teaserBox'));		
+		WCF::getTPL()->append('additionalTopContents', WCF::getTPL()->fetch('teaserBox'));
 	}
 
 }
