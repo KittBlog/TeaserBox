@@ -30,6 +30,7 @@
 		<options>options.xml</options>
 		<groupoptions>groupoptions.xml</groupoptions>
 		<eventlistener>eventlistener.xml</eventlistener>
+		<useroptions>useroptions.xml</useroptions>
 
 		<!-- languages -->
 		<languages languagecode="de">de.xml</languages>
@@ -45,6 +46,7 @@
 		<!-- config -->
 		<options>options.xml</options>
 		<groupoptions>groupoptions.xml</groupoptions>
+		<useroptions>useroptions.xml</useroptions>
 
 		<!-- languages -->
 		<languages languagecode="de">de.xml</languages>

@@ -24,7 +24,7 @@ class TeaserBoxIndexPageListener implements EventListener {
 	 * @see EventListener::execute()
 	 */
 	public function execute($eventObj, $className, $eventName) {
-		if (!WCF::getUser()->getPermission('user.profile.teaserBox.canView')) return;
+		if (!WCF::getUser()->getPermission('user.profile.teaserBox.canView') || WCF::getUser()->getPermission('user.profile.teaserBox.canDisable') && WCF::getUser()->getUserOption('disableTeaserBox')) return;
 
 		if (!in_array(PACKAGE_ID, explode(',', TEASERBOX_ACTIVE))) {
 			return;
@@ -43,8 +43,7 @@ class TeaserBoxIndexPageListener implements EventListener {
 			);
 		}
 
-		if (!count($this->teaserBoxData))
-			return;
+		if (!count($this->teaserBoxData)) return;
 
 		WCF::getTPL()->assign(array(
 		    'teaserBoxData' => $this->teaserBoxData

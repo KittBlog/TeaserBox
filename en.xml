@@ -405,7 +405,12 @@
 		<item name="wcf.acp.group.option.user.profile.teaserBox.canDisable"><![CDATA[Can disable TeaserBox]]></item>
 		<item name="wcf.acp.group.option.user.profile.teaserBox.canDisable.description"><![CDATA[Members of this user group can disable the teaser in their user profiles.]]></item>
 	</category>
-	
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.disableTeaserBox"><![CDATA[Disable TeaserBox]]></item>
+		<item name="wcf.user.option.disableTeaserBox.description"><![CDATA[Select this option if you don't want to see the teaser.]]></item>
+	</category>
+
 	<category name="wcf.teaserBox">
 		<item name="wcf.teaserBox.open"><![CDATA[Open TeaserBox]]></item>
 		<item name="wcf.teaserBox.close"><![CDATA[Close TeaserBox]]></item>
