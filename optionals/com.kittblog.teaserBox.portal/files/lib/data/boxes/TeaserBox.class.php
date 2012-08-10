@@ -19,7 +19,7 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 	/**
 	 * @see StandardPortalBox::readData()
 	 */
-	public function execute($eventObj, $className, $eventName) {
+	public function readData() {
 		if (!TEASERBOX_PORTAL_ACTIVE || !WCF::getUser()->getPermission('user.profile.teaserBox.canView') || WCF::getUser()->getPermission('user.profile.teaserBox.canDisable') && WCF::getUser()->getUserOption('disableTeaserBox')) return;
 
 		if (!in_array(PACKAGE_ID, explode(',', TEASERBOX_ACTIVE))) {
@@ -40,10 +40,6 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 		}
 
 		if (!count($this->teaserBoxData)) return;
-
-		WCF::getTPL()->assign(array(
-			'teaserBoxData' => $this->teaserBoxData
-		));
 
 		// CSS
 		if (!TEASERBOX_NAV_FONTSHADOWCOLOR) {
