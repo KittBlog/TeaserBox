@@ -56,6 +56,8 @@
 		<item name="wcf.acp.option.teaserbox_autoChange.description"><![CDATA[Set if the teaser should rotate.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChangeInterval"><![CDATA[Change interval]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChangeInterval.description"><![CDATA[Set the interval in which the teaser should rotate.]]></item>
+		<item name="wcf.acp.option.teaserbox_global"><![CDATA[TeaserBox global view]]></item>
+		<item name="wcf.acp.option.teaserbox_global.description"><![CDATA[Set if you want to show the teaser global.]]></item>
 		
 		<item name="wcf.acp.option.teaserbox_nav_bgcolor"><![CDATA[Background color for the menu item]]></item>
 		<item name="wcf.acp.option.teaserbox_nav_bgcolor.description"><![CDATA[Choose the background color for the menu item.]]></item>

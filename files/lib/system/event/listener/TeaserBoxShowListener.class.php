@@ -30,6 +30,13 @@ class TeaserBoxIndexPageListener implements EventListener {
 			return;
 		}
 
+		// show only on index page
+		if (TEASERBOX_GLOBAL == 0) {
+			if (WCF::getRequest()->page != 'IndexPage') {
+				return;
+			}
+		}
+
 		for ($i = 1; $i <= 20; $i++) {
 			if (constant('TEASERBOX_TEASER' . $i . '_ACTIVE') == false)
 				continue;
@@ -159,7 +166,7 @@ class TeaserBoxIndexPageListener implements EventListener {
 				</style>'
 			);
 		}
-		WCF::getTPL()->append('additionalTopContents', WCF::getTPL()->fetch('teaserBox'));
+		WCF::getTPL()->append('userMessages', WCF::getTPL()->fetch('teaserBox'));
 	}
 }
 ?>

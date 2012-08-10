@@ -55,7 +55,9 @@
 		<item name="wcf.acp.option.teaserbox_autoChange"><![CDATA[Teaser automatisch wechseln]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange.description"><![CDATA[Gebe hier an, ob der Teaser automatisch gewechselt werden soll.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChangeInterval"><![CDATA[Wechsel-Intervall]]></item>
-		<item name="wcf.acp.option.teaserbox_autoChangeInterval.description"><![CDATA[Gebe hier den Intervall in Sekunden ein, in dem automatisch der Teaser gewechselt werden soll.]]></item>		
+		<item name="wcf.acp.option.teaserbox_autoChangeInterval.description"><![CDATA[Gebe hier den Intervall in Sekunden ein, in dem automatisch der Teaser gewechselt werden soll.]]></item>
+		<item name="wcf.acp.option.teaserbox_global"><![CDATA[TeaserBox global anzeigen]]></item>
+		<item name="wcf.acp.option.teaserbox_global.description"><![CDATA[Gebe hier an, ob die TeaserBox auf jeder Seite angezeigt werden soll.]]></item>
 		
 		<item name="wcf.acp.option.teaserbox_nav_bgcolor"><![CDATA[Hintergrundfarbe für Menüpunkt]]></item>
 		<item name="wcf.acp.option.teaserbox_nav_bgcolor.description"><![CDATA[Wähle hier die Hintergrundfarbe aus, welche die Menüpunkte standardmäßig annehmen soll.]]></item>
