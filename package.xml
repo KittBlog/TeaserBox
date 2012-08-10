@@ -24,6 +24,10 @@
 		<requiredpackage file="requirements/com.woltlab.community.wcf.option.standaloneapplicationselect.tar.gz">com.woltlab.community.wcf.option.standaloneapplicationselect</requiredpackage>
 		<requiredpackage minversion="1.1.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
+
+	<excludedpackages>
+		<excluededpackage>com.alexanderzwei.wbb.teaserbox</excluededpackage>
+	</excludedpackages>
 	
 	<instructions type="install">
 		<!-- files -->
