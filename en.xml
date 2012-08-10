@@ -400,8 +400,10 @@
 	</category>
 
 	<category name="wcf.acp.group.option">
-		<item name="wcf.acp.group.option.user.board.teaserBox.canView"><![CDATA[Can view TeaserBox]]></item>
-		<item name="wcf.acp.group.option.user.board.teaserBox.canView.description"><![CDATA[Members of this user group can view the teaser.]]></item>
+		<item name="wcf.acp.group.option.user.profile.teaserBox.canView"><![CDATA[Can view TeaserBox]]></item>
+		<item name="wcf.acp.group.option.user.profile.teaserBox.canView.description"><![CDATA[Members of this user group can view the teaser.]]></item>
+		<item name="wcf.acp.group.option.user.profile.teaserBox.canDisable"><![CDATA[Can disable TeaserBox]]></item>
+		<item name="wcf.acp.group.option.user.profile.teaserBox.canDisable.description"><![CDATA[Members of this user group can disable the teaser in their user profiles.]]></item>
 	</category>
 	
 	<category name="wcf.teaserBox">
