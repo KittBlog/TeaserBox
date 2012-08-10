@@ -1,7 +1,7 @@
 {* define *}
 {assign var="teaser" value=teaser}
 
-<script type="text/javascript" src="{@RELATIVE_WCF_DIR}js/teaserBox.js"></script>
+<script type="text/javascript" src="{@RELATIVE_WCF_DIR}js/TeaserBox.class.js"></script>
 <!--[if lt IE 8]>
 <style type="text/css">
 	ul.teaserBoxNavigation {
