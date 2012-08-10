@@ -5,10 +5,10 @@ require_once(WCF_DIR.'lib/system/event/EventListener.class.php');
 /**
  * Displays the teaser box
  *
- * @package	de.kittblog.wcf.teaserbox
- * @author	Alexander 'alexanderzwei' Pankow; Matthias Kittsteiner
+ * @package		de.kittblog.wcf.teaserbox
+ * @author		Alexander 'alexanderzwei' Pankow; Matthias Kittsteiner
  * @copyright	2009 Alexander Pankow; 2011-2012 Matthias Kittsteiner
- * @license	LGPL <http://www.gnu.org/licenses/lgpl.html>
+ * @license		LGPL <http://www.gnu.org/licenses/lgpl.html>
  * @subpackage	system.event.listener
  * @category	Community Framework
  */

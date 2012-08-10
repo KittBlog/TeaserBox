@@ -3,10 +3,14 @@ require_once(WBB_DIR.'lib/data/boxes/PortalBox.class.php');
 require_once(WBB_DIR.'lib/data/boxes/StandardPortalBox.class.php');
 
 /**
- * @package		com.alexanderzwei.wbb.portal.teaserbox
- * @author		Alexander 'alexanderzwei' Pankow
- * @copyright	2009 Alexander Pankow
+ * Displays the teaser box in the portal
+ *
+ * @package		com.kittblog.teaserBox.portal
+ * @author		Alexander 'alexanderzwei' Pankow; Matthias Kittsteiner
+ * @copyright	2009 Alexander Pankow; 2011-2012 Matthias Kittsteiner
  * @license		LGPL <http://www.gnu.org/licenses/lgpl.html>
+ * @subpackage	system.event.listener
+ * @category	Community Framework
  */
 class TeaserBox extends PortalBox implements StandardPortalBox {
 	/**
