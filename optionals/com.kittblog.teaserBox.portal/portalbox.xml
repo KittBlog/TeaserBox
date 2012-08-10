@@ -9,7 +9,6 @@
 			<sortOrder>1</sortOrder>
 			<boxActivation>1</boxActivation>
 			<permissions>user.profile.teaserBox.canView</permissions>
-			<options>disableTeaserBox</options>
 		</portalboxitem>
 	</import>
 </data>
