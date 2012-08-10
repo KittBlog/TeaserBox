@@ -15,6 +15,10 @@
 		<authorurl>http://kittblog.com</authorurl>
 	</authorinformation>
 
+	<optionalpackages>
+		<optionalpackage file="optionals/com.kittblog.teaserBox.portal.tar">com.kittblog.teaserBox.portal</optionalpackage>
+	</optionalpackages>
+
 	<requiredpackages>
 		<requiredpackage file="requirements/com.optodoxie.wcf.optiontype.colorchooser.tar.gz" minversion="1.1.0 beta 2">com.optodoxie.wcf.optiontype.colorchooser</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.community.wcf.option.standaloneapplicationselect.tar.gz">com.woltlab.community.wcf.option.standaloneapplicationselect</requiredpackage>

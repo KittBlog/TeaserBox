@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="http://www.wbbaddons.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wbbaddons.de http://www.wbbaddons.de/XSD/portalboxitem.xsd">
+	<import>
+		<portalboxitem name="teaser">
+			<className>TeaserBox</className>
+			<boxType>1</boxType>
+			<useCache>0</useCache>
+			<cacheType>default</cacheType>
+			<sortOrder>1</sortOrder>
+			<boxActivation>1</boxActivation>
+			<permissions>user.profile.teaserBox.canView</permissions>
+			<options>disableTeaserBox</options>
+		</portalboxitem>
+	</import>
+</data>
