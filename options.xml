@@ -129,24 +129,18 @@
 				<defaultvalue><![CDATA[TeaserBox by <strong>ALPA Network</strong>, modified by <strong><a href="http://kittblog.com">KittBlog.com</a></strong>]]></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_height">
-				<categoryname>teaserbox.general</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>150</defaultvalue>
-				<showorder>4</showorder>
-			</option>
 			<option name="teaserbox_autoChange">
 				<categoryname>teaserbox.general</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>1</defaultvalue>
-				<showorder>5</showorder>
+				<showorder>4</showorder>
 				<enableoptions>teaserbox_autoChangeInterval</enableoptions>
 			</option>
 			<option name="teaserbox_autoChangeInterval">
 				<categoryname>teaserbox.general</categoryname>
 				<optiontype>integer</optiontype>
 				<defaultvalue>5</defaultvalue>
-				<showorder>6</showorder>
+				<showorder>5</showorder>
 			</option>
 			
 			<!-- teaserbox.display -->
@@ -191,6 +185,32 @@
 				<defaultvalue>#000</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="teaserbox_nav_borderInner">
+				<categoryname>teaserbox.display</categoryname>
+				<optiontype>colorchooser</optiontype>
+				<defaultvalue>#000</defaultvalue>
+				<showorder>7</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="teaserbox_nav_borderOuter">
+				<categoryname>teaserbox.display</categoryname>
+				<optiontype>colorchooser</optiontype>
+				<defaultvalue>#8da4b7</defaultvalue>
+				<showorder>8</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="teaserbox_height">
+				<categoryname>teaserbox.display</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>150</defaultvalue>
+				<showorder>9</showorder>
+			</option>
+			<option name="teaserbox_compact">
+				<categoryname>teaserbox.display</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>10</showorder>
 			</option>
 			
 			<!-- teaserbox.teaser1 -->

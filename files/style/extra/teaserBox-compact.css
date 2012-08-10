@@ -1,0 +1,54 @@
+.teaserBoxContent {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+ul.teaserBoxNavigation {
+	list-style: none;
+	position: absolute;
+	top: 10px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+}
+
+ul.teaserBoxTeaser {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+ul.teaserBoxTeaser li {
+	position: absolute;
+	width: 100%;
+}
+
+ul.teaserBoxTeaser li a {
+	display: block;
+	text-decoration: none;
+}
+
+ul.teaserBoxNavigation li {
+	display: inline-block;
+	margin: 5px 5px 0;
+	opacity: 0.8;
+	padding: 0;
+	border-radius: 10px !important;
+}
+
+ul.teaserBoxNavigation li a {
+	display: block;
+	height: 10px;
+	width: 10px;
+	border-radius: 10px;
+}
+
+ul.teaserBoxNavigation li a span {
+	display: none;
+}

@@ -52,8 +52,6 @@
 		<item name="wcf.acp.option.teaserbox_active.description"><![CDATA[Aktiviert oder deaktiviert die TeaserBox.]]></item>
 		<item name="wcf.acp.option.teaserbox_title"><![CDATA[Titel]]></item>
 		<item name="wcf.acp.option.teaserbox_title.description"><![CDATA[Geben Sie hier den Titel der TeaserBox ein. Es kann HTML verwendet werden. Wenn das Feld leer gelassen wird, wird keine Titelleiste angezeigt.]]></item>
-		<item name="wcf.acp.option.teaserbox_height"><![CDATA[Höhe]]></item>
-		<item name="wcf.acp.option.teaserbox_height.description"><![CDATA[Geben Sie hier in Pixeln an, wie hoch die TeaserBox sein soll.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange"><![CDATA[Teaser automatisch wechseln]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange.description"><![CDATA[Geben Sie hier an, ob der Teaser automatisch gewechselt werden soll.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChangeInterval"><![CDATA[Wechsel-Intervall]]></item>
@@ -71,7 +69,15 @@
 		<item name="wcf.acp.option.teaserbox_activeNav_fontColor.description"><![CDATA[Wählen Sie hier die Schriftfarbe für einen aktiven Menüpunkt aus.]]></item>
 		<item name="wcf.acp.option.teaserbox_activeNav_fontShadowColor"><![CDATA[Schattenfarbe für aktiven Menüpunkt]]></item>
 		<item name="wcf.acp.option.teaserbox_activeNav_fontShadowColor.description"><![CDATA[Wählen Sie hier aus, in welcher Farbe der Schatten des Textes in einem aktiven Menüpunkt dargestellt werden soll.]]></item>
-		
+		<item name="wcf.acp.option.teaserbox_nav_borderInner"><![CDATA[Farbe des Innenrahmens]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderInner.description"><![CDATA[Wählen Sie hier aus, in welcher Farbe der Innenrahmen dargestellt werden soll. <strong>Diese Einstellung hat nur in der kompakten Ansicht einen Effekt!</strong>]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderOuter"><![CDATA[Farbe des Außenrahmens]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderOuter.description"><![CDATA[Wählen Sie hier aus, in welcher Farbe der Außenrahmen dargestellt werden soll. <strong>Diese Einstellung hat nur in der kompakten Ansicht einen Effekt!</strong>]]></item>
+		<item name="wcf.acp.option.teaserbox_height"><![CDATA[Höhe]]></item>
+		<item name="wcf.acp.option.teaserbox_height.description"><![CDATA[Geben Sie hier in Pixeln an, wie hoch die TeaserBox sein soll.]]></item>
+		<item name="wcf.acp.option.teaserbox_compact"><![CDATA[Kompakte Darstellung]]></item>
+		<item name="wcf.acp.option.teaserbox_compact.description"><![CDATA[Wählen Sie hier, ob die kompakte Darstellung des Menüs der TeaserBox aktiviert werden soll.]]></item>
+
 		<item name="wcf.acp.option.teaserbox_teaser1_active"><![CDATA[Teaser aktiv?]]></item>
 		<item name="wcf.acp.option.teaserbox_teaser1_active.description"><![CDATA[Aktiviert oder deaktiviert diesen Teaser.]]></item>
 		<item name="wcf.acp.option.teaserbox_teaser1_title"><![CDATA[Titel]]></item>

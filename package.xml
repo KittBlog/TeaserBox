@@ -4,7 +4,7 @@
 		<packagename>TeaserBox</packagename>
 		<packagedescription>Fügt dem WoltLab® Community Framework einen Teaser hinzu, in dem bis zu 5 Grafiken eingebunden werden können.</packagedescription>
 		<isunique>0</isunique>
-		<version>1.1.1</version>
+		<version>1.2.0</version>
 		<date>2012-08-00</date>
 		<plugin>com.woltlab.wcf.data.page</plugin>
 		<isunique>1</isunique>
@@ -36,12 +36,12 @@
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
 	</instructions>
-	
-	<instructions type="update" fromversion="1.0.1">
+
+	<instructions type="update" fromversion="*">
 		<!-- files -->
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
-		
+
 		<!-- config -->
 		<options>options.xml</options>
 		<groupoptions>groupoptions.xml</groupoptions>
@@ -49,21 +49,6 @@
 		<!-- languages -->
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
-		<languages languagecode="en">en.xml</languages>		
-	</instructions>
-
-	<instructions type="update" fromversion="1.1.0">
-		<!-- files -->
-		<files>files.tar</files>
-	</instructions>
-
-	<instructions type="update" fromversion="1.1.0 pl 1">
-		<!-- files -->
-		<files>files.tar</files>
-		<templates>templates.tar</templates>
-
-		<!-- config -->
-		<options>options.xml</options>
-		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="en">en.xml</languages>
 	</instructions>
 </package>

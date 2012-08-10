@@ -52,8 +52,6 @@
 		<item name="wcf.acp.option.teaserbox_active.description"><![CDATA[Activate or disactivate the teaser.]]></item>
 		<item name="wcf.acp.option.teaserbox_title"><![CDATA[Title]]></item>
 		<item name="wcf.acp.option.teaserbox_title.description"><![CDATA[Enter the title of the teaser. HTML is available. If this field is empty there is no titlebar.]]></item>
-		<item name="wcf.acp.option.teaserbox_height"><![CDATA[Height]]></item>
-		<item name="wcf.acp.option.teaserbox_height.description"><![CDATA[Enter in pixels the height of the teaser.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange"><![CDATA[Teaser rotation]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange.description"><![CDATA[Set if the teaser should rotate.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChangeInterval"><![CDATA[Change interval]]></item>
@@ -71,6 +69,14 @@
 		<item name="wcf.acp.option.teaserbox_activeNav_fontColor.description"><![CDATA[Choose the font color for the active menu item.]]></item>
 		<item name="wcf.acp.option.teaserbox_activeNav_fontShadowColor"><![CDATA[Shadow color for the active menu item]]></item>
 		<item name="wcf.acp.option.teaserbox_activeNav_fontShadowColor.description"><![CDATA[Choose the shadow color for the active menu item.]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderInner"><![CDATA[Color for inner border]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderInner.description"><![CDATA[Choose the color of the inner border. <strong>This option only is attended on the compact design!</strong>]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderOuter"><![CDATA[Color for outer border]]></item>
+		<item name="wcf.acp.option.teaserbox_nav_borderOuter.description"><![CDATA[Choose the color of the outer border. <strong>This option only is attended on the compact design!</strong>]]></item>
+		<item name="wcf.acp.option.teaserbox_height"><![CDATA[Height]]></item>
+		<item name="wcf.acp.option.teaserbox_height.description"><![CDATA[Enter in pixels the height of the teaser.]]></item>
+		<item name="wcf.acp.option.teaserbox_compact"><![CDATA[Compact design]]></item>
+		<item name="wcf.acp.option.teaserbox_compact.description"><![CDATA[Set if the compact design of the menu should be displayed.]]></item>
 		
 		<item name="wcf.acp.option.teaserbox_teaser1_active"><![CDATA[Teaser active?]]></item>
 		<item name="wcf.acp.option.teaserbox_teaser1_active.description"><![CDATA[Activate or disactivate the teaser.]]></item>

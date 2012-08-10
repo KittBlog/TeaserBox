@@ -2,9 +2,7 @@
 	overflow: hidden;
 	width: 100%;
 }
-ul.teaserBoxNavigation li a {
-	height: 25px;
-}
+
 ul.teaserBoxNavigation {
 	list-style: none;
 	float: right;
@@ -15,6 +13,7 @@ ul.teaserBoxNavigation {
 	padding: 0;
 	z-index: 1;
 }
+
 ul.teaserBoxTeaser {
 	list-style: none;
 	margin: 0;
@@ -23,12 +22,19 @@ ul.teaserBoxTeaser {
 	width: 100%;
 	z-index: 0;
 }
+
 ul.teaserBoxTeaser li {
 	position: absolute;
 	width: 100%;
 }
+
+ul.teaserBoxTeaser li a {
+	display: block;
+	text-decoration: none;
+}
+
 ul.teaserBoxNavigation li {
-	padding: 3px 10px 3px 10px;
+	padding: 3px 10px 1px;
 	margin: 5px 0 0;
 	opacity: 0.8;
 	float: right;
@@ -37,9 +43,11 @@ ul.teaserBoxNavigation li {
 	-moz-border-radius: 10px 0 0 10px !important;
 	border-radius: 10px 0 0 10px !important;
 }
+
 ul.teaserBoxNavigation li.activeTeaser {
 	width: 100%;
 }
+
 ul.teaserBoxNavigation li a {
 	display: block;
 	height: 25px;
@@ -47,10 +55,7 @@ ul.teaserBoxNavigation li a {
 	font-weight: bold;
 	font-size: 1.2em;
 }
+
 ul.teaserBoxNavigation li.activeTeaser a {
 	font-size: 1.4em;
-}
-ul.teaserBoxTeaser li a {
-	display: block;
-	text-decoration: none;
 }
