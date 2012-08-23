@@ -12,7 +12,7 @@ require_once(WCF_DIR.'lib/system/event/EventListener.class.php');
  * @subpackage	system.event.listener
  * @category	Community Framework
  */
-class TeaserBoxIndexPageListener implements EventListener {
+class TeaserBoxShowListener implements EventListener {
 	/**
 	 * box data
 	 *
