@@ -1,6 +1,6 @@
 .teaserBoxContent {
+	margin: 0 1px 1px 0;
 	overflow: hidden;
-	width: 100%;
 }
 
 ul.teaserBoxNavigation {
@@ -58,4 +58,13 @@ ul.teaserBoxNavigation li a {
 
 ul.teaserBoxNavigation li.activeTeaser a {
 	font-size: 1.4em;
+}
+
+
+/* Portal */
+
+#tplPortal .teaserBox {
+	-webkit-border-radius: 5px 5px 0 0 !important;
+	-moz-border-radius: 5px 5px 0 0 !important;
+	border-radius: 5px 5px 0 0 !important;
 }
