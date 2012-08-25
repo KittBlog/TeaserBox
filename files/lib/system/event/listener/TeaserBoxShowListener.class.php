@@ -99,9 +99,8 @@ class TeaserBoxShowListener implements EventListener {
 			$navigationHeight = TEASERBOX_HEIGHT - 30;
 
 			WCF::getTPL()->append('specialStyles',
-				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox-compact.css" />'.
-				'<style type="text/css">
-				<!--
+				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox-compact.css" />
+				<style type="text/css">
 				ul.teaserBoxNavigation {
 					top: ' . $navigationHeight . 'px;
 				}
@@ -132,15 +131,14 @@ class TeaserBoxShowListener implements EventListener {
 				ul.teaserBoxNavigation li a {
 					border: 1px solid ' . $borderInner . ';
 				}
-				-->
 				</style>'
 			);
 		}
 		else {
 			WCF::getTPL()->append('specialStyles',
-				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox.css" />'.
-					'<style type="text/css">
-				<!--
+				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox.css" />
+				<style type="text/css">
+
 				.teaserBoxContent, ul.teaserBoxTeaser li a {
 					height: ' . TEASERBOX_HEIGHT . 'px;
 				}
@@ -162,7 +160,6 @@ class TeaserBoxShowListener implements EventListener {
 				ul.teaserBoxNavigation li.activeTeaser {
 					background-color: ' . $activeBgColor . ';
 				}
-				-->
 				</style>'
 			);
 		}
