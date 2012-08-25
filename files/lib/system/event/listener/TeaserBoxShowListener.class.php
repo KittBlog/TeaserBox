@@ -31,14 +31,14 @@ class TeaserBoxShowListener implements EventListener {
 		}
 
 		// show only on index page
-		if (TEASERBOX_GLOBAL == 0) {
+		if (!TEASERBOX_GLOBAL) {
 			if (WCF::getRequest()->page != 'IndexPage') {
 				return;
 			}
 		}
 
 		for ($i = 1; $i <= 20; $i++) {
-			if (constant('TEASERBOX_TEASER' . $i . '_ACTIVE') == false)
+			if (!constant('TEASERBOX_TEASER' . $i . '_ACTIVE'))
 				continue;
 
 			$this->teaserBoxData[] = array(
