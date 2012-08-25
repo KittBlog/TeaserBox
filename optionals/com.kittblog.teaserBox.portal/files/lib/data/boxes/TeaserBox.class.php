@@ -26,12 +26,8 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 	public function readData() {
 		if (!TEASERBOX_PORTAL_ACTIVE || !WCF::getUser()->getPermission('user.profile.teaserBox.canView') || WCF::getUser()->getPermission('user.profile.teaserBox.canDisable') && WCF::getUser()->getUserOption('disableTeaserBox')) return;
 
-		if (!in_array(PACKAGE_ID, explode(',', TEASERBOX_ACTIVE))) {
-			return;
-		}
-
 		for ($i = 1; $i <= 20; $i++) {
-			if (constant('TEASERBOX_TEASER' . $i . '_ACTIVE') == false)
+			if (!constant('TEASERBOX_TEASER' . $i . '_ACTIVE'))
 				continue;
 
 			$this->teaserBoxData[] = array(
