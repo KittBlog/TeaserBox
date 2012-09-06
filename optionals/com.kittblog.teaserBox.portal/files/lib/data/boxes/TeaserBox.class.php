@@ -86,7 +86,6 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 			WCF::getTPL()->append('specialStyles',
 				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox-compact.css" />'.
 					'<style type="text/css">
-				<!--
 				ul.teaserBoxNavigation {
 					top: ' . $navigationHeight . 'px;
 				}
@@ -117,7 +116,6 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 				ul.teaserBoxNavigation li a {
 					border: 1px solid ' . $borderInner . ';
 				}
-				-->
 				</style>'
 			);
 		}
@@ -125,7 +123,6 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 			WCF::getTPL()->append('specialStyles',
 				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox.css" />'.
 					'<style type="text/css">
-				<!--
 				.teaserBoxContent, ul.teaserBoxTeaser li a {
 					height: ' . TEASERBOX_HEIGHT . 'px;
 				}
@@ -147,7 +144,6 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 				ul.teaserBoxNavigation li.activeTeaser {
 					background-color: ' . $activeBgColor . ';
 				}
-				-->
 				</style>'
 			);
 		}

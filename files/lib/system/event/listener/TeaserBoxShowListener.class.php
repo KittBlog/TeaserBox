@@ -30,15 +30,20 @@ class TeaserBoxShowListener implements EventListener {
 			return;
 		}
 
+		// option for optional package
+		if (TEASERBOX_PORTAL_ACTIVE) {
+			return;
+		}
+
 		// show only on index page
-		if (!TEASERBOX_GLOBAL) {
+		if (TEASERBOX_GLOBAL == 0) {
 			if (WCF::getRequest()->page != 'IndexPage') {
 				return;
 			}
 		}
 
 		for ($i = 1; $i <= 20; $i++) {
-			if (!constant('TEASERBOX_TEASER' . $i . '_ACTIVE'))
+			if (constant('TEASERBOX_TEASER' . $i . '_ACTIVE') == false)
 				continue;
 
 			$this->teaserBoxData[] = array(
@@ -53,7 +58,7 @@ class TeaserBoxShowListener implements EventListener {
 		if (!count($this->teaserBoxData)) return;
 
 		WCF::getTPL()->assign(array(
-		    'teaserBoxData' => $this->teaserBoxData
+			'teaserBoxData' => $this->teaserBoxData
 		));
 
 		// CSS
@@ -99,8 +104,8 @@ class TeaserBoxShowListener implements EventListener {
 			$navigationHeight = TEASERBOX_HEIGHT - 30;
 
 			WCF::getTPL()->append('specialStyles',
-				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox-compact.css" />
-				<style type="text/css">
+				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox-compact.css" />'.
+					'<style type="text/css">
 				ul.teaserBoxNavigation {
 					top: ' . $navigationHeight . 'px;
 				}
@@ -136,9 +141,8 @@ class TeaserBoxShowListener implements EventListener {
 		}
 		else {
 			WCF::getTPL()->append('specialStyles',
-				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox.css" />
-				<style type="text/css">
-
+				'<link type="text/css" rel="stylesheet" href="'.RELATIVE_WCF_DIR.'style/extra/teaserBox.css" />'.
+					'<style type="text/css">
 				.teaserBoxContent, ul.teaserBoxTeaser li a {
 					height: ' . TEASERBOX_HEIGHT . 'px;
 				}
