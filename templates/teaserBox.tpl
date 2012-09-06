@@ -43,7 +43,7 @@
 	{/if}
 	
 	<div id="teaserBoxContent" class="teaserBoxContent">
-    	<ul class="teaserBoxNavigation">
+		<ul class="teaserBoxNavigation">
 			{foreach from=$teaserBoxData item='teaser' key='teaserNr'}
 				<li class="teaserNav{if $teaserNr == 0} containerHead activeTeaser{/if}" id="teaserNav_{$teaserNr}"><a href="{$teaser.link}" onmouseover="showTeaser('{$teaserNr}');" onmouseout="startSlideShow(firstFrame,(lastFrame-1),delay);" title="{$teaser.title}"><span>{$teaser.title}</span></a></li>
 			{/foreach}
