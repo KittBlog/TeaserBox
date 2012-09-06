@@ -49,7 +49,7 @@
 		<item name="wcf.acp.option.category.teaserbox.teaser20.description"><![CDATA[]]></item>
 		
 		<item name="wcf.acp.option.teaserbox_active"><![CDATA[TeaserBox active?]]></item>
-		<item name="wcf.acp.option.teaserbox_active.description"><![CDATA[Activate or disactivate the teaser.]]></item>
+		<item name="wcf.acp.option.teaserbox_active.description"><![CDATA[Enable or disable the teaser.]]></item>
 		<item name="wcf.acp.option.teaserbox_title"><![CDATA[Title]]></item>
 		<item name="wcf.acp.option.teaserbox_title.description"><![CDATA[Enter the title of the teaser. HTML is available. If this field is empty there is no titlebar.]]></item>
 		<item name="wcf.acp.option.teaserbox_autoChange"><![CDATA[Teaser rotation]]></item>
