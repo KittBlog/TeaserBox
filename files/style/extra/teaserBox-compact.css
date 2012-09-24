@@ -1,7 +1,6 @@
 .teaserBoxContent {
+	margin: 0 1px 1px 0;
 	overflow: hidden;
-	position: relative;
-	width: 100%;
 }
 
 ul.teaserBoxNavigation {
