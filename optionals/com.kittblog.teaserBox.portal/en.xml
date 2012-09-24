@@ -5,7 +5,7 @@
 	</category>
 
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.teaserbox_portal_active"><![CDATA[Teaserbox in portal]]></item>
+		<item name="wcf.acp.option.teaserbox_portal_active"><![CDATA[TeaserBox in portal]]></item>
 		<item name="wcf.acp.option.teaserbox_portal_active.description"><![CDATA[Choose if the teaser should be displayed in the portal.]]></item>
 	</category>
 </language>
