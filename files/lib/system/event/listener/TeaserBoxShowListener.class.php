@@ -24,7 +24,7 @@ class TeaserBoxShowListener implements EventListener {
 	 * @see EventListener::execute()
 	 */
 	public function execute($eventObj, $className, $eventName) {
-		if (!WCF::getUser()->getPermission('user.profile.teaserBox.canView') || WCF::getUser()->getPermission('user.profile.teaserBox.canDisable') && WCF::getUser()->getUserOption('disableTeaserBox')) return;
+		if (!WCF::getUser()->getPermission('user.profile.teaserBox.canView') || WCF::getUser()->getPermission('user.profile.teaserBox.canDisable') && WCF::getUser()->getUserOption('disableTeaserBox') || WCF::getRequest()->page == 'PortalPage') return;
 
 		if (!in_array(PACKAGE_ID, explode(',', TEASERBOX_ACTIVE))) {
 			return;
