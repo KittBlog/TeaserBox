@@ -30,14 +30,12 @@
 
 <div class="teaserBox border titleBarPanel">
 	{if TEASERBOX_TITLE}
-		<div class="teaserTitle">
-			<div class="containerHead">
-				<div class="containerIcon">
-					<a onclick="openList('{$teaser}', { save: true, openTitle: '{lang}wcf.teaserBox.open{/lang}', closeTitle: '{lang}wcf.teaserBox.close{/lang}' })"><img src="{icon}minusS.png{/icon}" id="{$teaser}Image" alt="" title="{lang}wcf.teaserBox.close{/lang}" /></a>
-				</div>
-				<div class="containerContent">
-					{@TEASERBOX_TITLE}
-				</div>
+		<div class="containerHead teaserTitle">
+			<div class="containerIcon">
+				<a onclick="openList('{$teaser}', { save: true, openTitle: '{lang}wcf.teaserBox.open{/lang}', closeTitle: '{lang}wcf.teaserBox.close{/lang}' })"><img src="{icon}minusS.png{/icon}" id="{$teaser}Image" alt="" title="{lang}wcf.teaserBox.close{/lang}" /></a>
+			</div>
+			<div class="containerContent">
+				{@TEASERBOX_TITLE}
 			</div>
 		</div>
 	{/if}
