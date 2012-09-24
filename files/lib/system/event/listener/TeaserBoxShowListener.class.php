@@ -31,7 +31,7 @@ class TeaserBoxShowListener implements EventListener {
 		}
 
 		// option for optional package
-		if (TEASERBOX_PORTAL_ACTIVE) {
+		if (TEASERBOX_PORTAL_ACTIVE && TEASERBOX_GLOBAL == 0) {
 			return;
 		}
 
