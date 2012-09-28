@@ -30,11 +30,6 @@ class TeaserBoxShowListener implements EventListener {
 			return;
 		}
 
-		// option for optional package
-		if (TEASERBOX_PORTAL_ACTIVE && TEASERBOX_GLOBAL == 0) {
-			return;
-		}
-
 		// show only on index page
 		if (TEASERBOX_GLOBAL == 0) {
 			if (WCF::getRequest()->page != 'IndexPage') {
