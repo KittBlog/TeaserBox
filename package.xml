@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>TeaserBox</packagename>
 		<packagedescription><![CDATA[Fügt dem WoltLab® Community Framework einen Teaser hinzu, in dem bis zu 20 Grafiken eingebunden werden können.]]></packagedescription>
-		<version>1.2.0 pl 1</version>
-		<date>2012-09-24</date>
+		<version>1.2.0 pl 2</version>
+		<date>2012-09-28</date>
 		<plugin>com.woltlab.wcf.data.page</plugin>
 		<isunique>1</isunique>
 	</packageinformation>
