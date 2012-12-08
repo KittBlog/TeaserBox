@@ -5,8 +5,8 @@
 		<standalone>0</standalone>
 		<isunique>0</isunique>
 		<plugin>com.woltlab.wbb</plugin>
-		<version>1.0.0 pl 1</version>
-		<date>2012-09-24</date>
+		<version>1.0.0 pl 2</version>
+		<date>2012-12-08</date>
 	</packageinformation>
 
 	<authorinformation>
@@ -30,10 +30,15 @@
 		<options>options.xml</options>
 	</instructions>
 
-	<instructions type="update" fromversion="*">
+	<instructions type="update" fromversion="1.0.0">
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0 pl 1">
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
 	</instructions>

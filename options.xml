@@ -14,102 +14,102 @@
 				<showorder>2</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser1">
+			<category name="teaserbox.teaserEntry1">
 				<parent>teaserbox</parent>
 				<showorder>3</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser2">
+			<category name="teaserbox.teaserEntry2">
 				<parent>teaserbox</parent>
 				<showorder>4</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser3">
+			<category name="teaserbox.teaserEntry3">
 				<parent>teaserbox</parent>
 				<showorder>5</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser4">
+			<category name="teaserbox.teaserEntry4">
 				<parent>teaserbox</parent>
 				<showorder>6</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser5">
+			<category name="teaserbox.teaserEntry5">
 				<parent>teaserbox</parent>
 				<showorder>7</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser6">
+			<category name="teaserbox.teaserEntry6">
 				<parent>teaserbox</parent>
 				<showorder>8</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser7">
+			<category name="teaserbox.teaserEntry7">
 				<parent>teaserbox</parent>
 				<showorder>9</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser8">
+			<category name="teaserbox.teaserEntry8">
 				<parent>teaserbox</parent>
 				<showorder>10</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser9">
+			<category name="teaserbox.teaserEntry9">
 				<parent>teaserbox</parent>
 				<showorder>11</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser10">
+			<category name="teaserbox.teaserEntry10">
 				<parent>teaserbox</parent>
 				<showorder>12</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser11">
+			<category name="teaserbox.teaserEntry11">
 				<parent>teaserbox</parent>
 				<showorder>13</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser12">
+			<category name="teaserbox.teaserEntry12">
 				<parent>teaserbox</parent>
 				<showorder>14</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser13">
+			<category name="teaserbox.teaserEntry13">
 				<parent>teaserbox</parent>
 				<showorder>15</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser14">
+			<category name="teaserbox.teaserEntry14">
 				<parent>teaserbox</parent>
 				<showorder>16</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser15">
+			<category name="teaserbox.teaserEntry15">
 				<parent>teaserbox</parent>
 				<showorder>17</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser16">
+			<category name="teaserbox.teaserEntry16">
 				<parent>teaserbox</parent>
 				<showorder>18</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser17">
+			<category name="teaserbox.teaserEntry17">
 				<parent>teaserbox</parent>
 				<showorder>19</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser18">
+			<category name="teaserbox.teaserEntry18">
 				<parent>teaserbox</parent>
 				<showorder>20</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser19">
+			<category name="teaserbox.teaserEntry19">
 				<parent>teaserbox</parent>
 				<showorder>21</showorder>
 			</category>
 			
-			<category name="teaserbox.teaser20">
+			<category name="teaserbox.teaserEntry20">
 				<parent>teaserbox</parent>
 				<showorder>22</showorder>
 			</category>
@@ -219,880 +219,880 @@
 				<showorder>10</showorder>
 			</option>
 			
-			<!-- teaserbox.teaser1 -->
-			<option name="teaserbox_teaser1_active">
-				<categoryname>teaserbox.teaser1</categoryname>
+			<!-- teaserbox.teaserEntry1 -->
+			<option name="teaserbox_teaserEntry1_active">
+				<categoryname>teaserbox.teaserEntry1</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser1_title,teaserbox_teaser1_link,teaserbox_teaser1_image,teaserbox_teaser1_align,teaserbox_teaser1_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry1_title,teaserbox_teaserEntry1_link,teaserbox_teaserEntry1_image,teaserbox_teaserEntry1_align,teaserbox_teaserEntry1_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser1_title">
-				<categoryname>teaserbox.teaser1</categoryname>
+			<option name="teaserbox_teaserEntry1_title">
+				<categoryname>teaserbox.teaserEntry1</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser1_link">
-				<categoryname>teaserbox.teaser1</categoryname>
+			<option name="teaserbox_teaserEntry1_link">
+				<categoryname>teaserbox.teaserEntry1</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser1_image">
-				<categoryname>teaserbox.teaser1</categoryname>
+			<option name="teaserbox_teaserEntry1_image">
+				<categoryname>teaserbox.teaserEntry1</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser1_align">
-				<categoryname>teaserbox.teaser1</categoryname>
+			<option name="teaserbox_teaserEntry1_align">
+				<categoryname>teaserbox.teaserEntry1</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser1_align.left
-center:wcf.acp.option.teaserbox_teaser1_align.center
-right:wcf.acp.option.teaserbox_teaser1_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry1_align.left
+center:wcf.acp.option.teaserbox_teaserEntry1_align.center
+right:wcf.acp.option.teaserbox_teaserEntry1_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser1_bgcolor">
-				<categoryname>teaserbox.teaser1</categoryname>
+			<option name="teaserbox_teaserEntry1_bgcolor">
+				<categoryname>teaserbox.teaserEntry1</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser2 -->
-			<option name="teaserbox_teaser2_active">
-				<categoryname>teaserbox.teaser2</categoryname>
+			<!-- teaserbox.teaserEntry2 -->
+			<option name="teaserbox_teaserEntry2_active">
+				<categoryname>teaserbox.teaserEntry2</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser2_title,teaserbox_teaser2_link,teaserbox_teaser2_image,teaserbox_teaser2_align,teaserbox_teaser2_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry2_title,teaserbox_teaserEntry2_link,teaserbox_teaserEntry2_image,teaserbox_teaserEntry2_align,teaserbox_teaserEntry2_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser2_title">
-				<categoryname>teaserbox.teaser2</categoryname>
+			<option name="teaserbox_teaserEntry2_title">
+				<categoryname>teaserbox.teaserEntry2</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser2_link">
-				<categoryname>teaserbox.teaser2</categoryname>
+			<option name="teaserbox_teaserEntry2_link">
+				<categoryname>teaserbox.teaserEntry2</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser2_image">
-				<categoryname>teaserbox.teaser2</categoryname>
+			<option name="teaserbox_teaserEntry2_image">
+				<categoryname>teaserbox.teaserEntry2</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser2_align">
-				<categoryname>teaserbox.teaser2</categoryname>
+			<option name="teaserbox_teaserEntry2_align">
+				<categoryname>teaserbox.teaserEntry2</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser2_align.left
-center:wcf.acp.option.teaserbox_teaser2_align.center
-right:wcf.acp.option.teaserbox_teaser2_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry2_align.left
+center:wcf.acp.option.teaserbox_teaserEntry2_align.center
+right:wcf.acp.option.teaserbox_teaserEntry2_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser2_bgcolor">
-				<categoryname>teaserbox.teaser2</categoryname>
+			<option name="teaserbox_teaserEntry2_bgcolor">
+				<categoryname>teaserbox.teaserEntry2</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser3 -->
-			<option name="teaserbox_teaser3_active">
-				<categoryname>teaserbox.teaser3</categoryname>
+			<!-- teaserbox.teaserEntry3 -->
+			<option name="teaserbox_teaserEntry3_active">
+				<categoryname>teaserbox.teaserEntry3</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser3_title,teaserbox_teaser3_link,teaserbox_teaser3_image,teaserbox_teaser3_align,teaserbox_teaser3_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry3_title,teaserbox_teaserEntry3_link,teaserbox_teaserEntry3_image,teaserbox_teaserEntry3_align,teaserbox_teaserEntry3_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser3_title">
-				<categoryname>teaserbox.teaser3</categoryname>
+			<option name="teaserbox_teaserEntry3_title">
+				<categoryname>teaserbox.teaserEntry3</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser3_link">
-				<categoryname>teaserbox.teaser3</categoryname>
+			<option name="teaserbox_teaserEntry3_link">
+				<categoryname>teaserbox.teaserEntry3</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser3_image">
-				<categoryname>teaserbox.teaser3</categoryname>
+			<option name="teaserbox_teaserEntry3_image">
+				<categoryname>teaserbox.teaserEntry3</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser3_align">
-				<categoryname>teaserbox.teaser3</categoryname>
+			<option name="teaserbox_teaserEntry3_align">
+				<categoryname>teaserbox.teaserEntry3</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser3_align.left
-center:wcf.acp.option.teaserbox_teaser3_align.center
-right:wcf.acp.option.teaserbox_teaser3_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry3_align.left
+center:wcf.acp.option.teaserbox_teaserEntry3_align.center
+right:wcf.acp.option.teaserbox_teaserEntry3_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser3_bgcolor">
-				<categoryname>teaserbox.teaser3</categoryname>
+			<option name="teaserbox_teaserEntry3_bgcolor">
+				<categoryname>teaserbox.teaserEntry3</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser4 -->
-			<option name="teaserbox_teaser4_active">
-				<categoryname>teaserbox.teaser4</categoryname>
+			<!-- teaserbox.teaserEntry4 -->
+			<option name="teaserbox_teaserEntry4_active">
+				<categoryname>teaserbox.teaserEntry4</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser4_title,teaserbox_teaser4_link,teaserbox_teaser4_image,teaserbox_teaser4_align,teaserbox_teaser4_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry4_title,teaserbox_teaserEntry4_link,teaserbox_teaserEntry4_image,teaserbox_teaserEntry4_align,teaserbox_teaserEntry4_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser4_title">
-				<categoryname>teaserbox.teaser4</categoryname>
+			<option name="teaserbox_teaserEntry4_title">
+				<categoryname>teaserbox.teaserEntry4</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser4_link">
-				<categoryname>teaserbox.teaser4</categoryname>
+			<option name="teaserbox_teaserEntry4_link">
+				<categoryname>teaserbox.teaserEntry4</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser4_image">
-				<categoryname>teaserbox.teaser4</categoryname>
+			<option name="teaserbox_teaserEntry4_image">
+				<categoryname>teaserbox.teaserEntry4</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser4_align">
-				<categoryname>teaserbox.teaser4</categoryname>
+			<option name="teaserbox_teaserEntry4_align">
+				<categoryname>teaserbox.teaserEntry4</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser4_align.left
-center:wcf.acp.option.teaserbox_teaser4_align.center
-right:wcf.acp.option.teaserbox_teaser4_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry4_align.left
+center:wcf.acp.option.teaserbox_teaserEntry4_align.center
+right:wcf.acp.option.teaserbox_teaserEntry4_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser4_bgcolor">
-				<categoryname>teaserbox.teaser4</categoryname>
+			<option name="teaserbox_teaserEntry4_bgcolor">
+				<categoryname>teaserbox.teaserEntry4</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser5 -->
-			<option name="teaserbox_teaser5_active">
-				<categoryname>teaserbox.teaser5</categoryname>
+			<!-- teaserbox.teaserEntry5 -->
+			<option name="teaserbox_teaserEntry5_active">
+				<categoryname>teaserbox.teaserEntry5</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser5_title,teaserbox_teaser5_link,teaserbox_teaser5_image,teaserbox_teaser5_align,teaserbox_teaser5_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry5_title,teaserbox_teaserEntry5_link,teaserbox_teaserEntry5_image,teaserbox_teaserEntry5_align,teaserbox_teaserEntry5_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser5_title">
-				<categoryname>teaserbox.teaser5</categoryname>
+			<option name="teaserbox_teaserEntry5_title">
+				<categoryname>teaserbox.teaserEntry5</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser5_link">
-				<categoryname>teaserbox.teaser5</categoryname>
+			<option name="teaserbox_teaserEntry5_link">
+				<categoryname>teaserbox.teaserEntry5</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser5_image">
-				<categoryname>teaserbox.teaser5</categoryname>
+			<option name="teaserbox_teaserEntry5_image">
+				<categoryname>teaserbox.teaserEntry5</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser5_align">
-				<categoryname>teaserbox.teaser5</categoryname>
+			<option name="teaserbox_teaserEntry5_align">
+				<categoryname>teaserbox.teaserEntry5</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser5_align.left
-center:wcf.acp.option.teaserbox_teaser5_align.center
-right:wcf.acp.option.teaserbox_teaser5_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry5_align.left
+center:wcf.acp.option.teaserbox_teaserEntry5_align.center
+right:wcf.acp.option.teaserbox_teaserEntry5_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser5_bgcolor">
-				<categoryname>teaserbox.teaser5</categoryname>
+			<option name="teaserbox_teaserEntry5_bgcolor">
+				<categoryname>teaserbox.teaserEntry5</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser6 -->
-			<option name="teaserbox_teaser6_active">
-				<categoryname>teaserbox.teaser6</categoryname>
+			<!-- teaserbox.teaserEntry6 -->
+			<option name="teaserbox_teaserEntry6_active">
+				<categoryname>teaserbox.teaserEntry6</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser6_title,teaserbox_teaser6_link,teaserbox_teaser6_image,teaserbox_teaser6_align,teaserbox_teaser6_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry6_title,teaserbox_teaserEntry6_link,teaserbox_teaserEntry6_image,teaserbox_teaserEntry6_align,teaserbox_teaserEntry6_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser6_title">
-				<categoryname>teaserbox.teaser6</categoryname>
+			<option name="teaserbox_teaserEntry6_title">
+				<categoryname>teaserbox.teaserEntry6</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser6_link">
-				<categoryname>teaserbox.teaser6</categoryname>
+			<option name="teaserbox_teaserEntry6_link">
+				<categoryname>teaserbox.teaserEntry6</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser6_image">
-				<categoryname>teaserbox.teaser6</categoryname>
+			<option name="teaserbox_teaserEntry6_image">
+				<categoryname>teaserbox.teaserEntry6</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser6_align">
-				<categoryname>teaserbox.teaser6</categoryname>
+			<option name="teaserbox_teaserEntry6_align">
+				<categoryname>teaserbox.teaserEntry6</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser6_align.left
-center:wcf.acp.option.teaserbox_teaser6_align.center
-right:wcf.acp.option.teaserbox_teaser6_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry6_align.left
+center:wcf.acp.option.teaserbox_teaserEntry6_align.center
+right:wcf.acp.option.teaserbox_teaserEntry6_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser6_bgcolor">
-				<categoryname>teaserbox.teaser6</categoryname>
+			<option name="teaserbox_teaserEntry6_bgcolor">
+				<categoryname>teaserbox.teaserEntry6</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser7 -->
-			<option name="teaserbox_teaser7_active">
-				<categoryname>teaserbox.teaser7</categoryname>
+			<!-- teaserbox.teaserEntry7 -->
+			<option name="teaserbox_teaserEntry7_active">
+				<categoryname>teaserbox.teaserEntry7</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser7_title,teaserbox_teaser7_link,teaserbox_teaser7_image,teaserbox_teaser7_align,teaserbox_teaser7_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry7_title,teaserbox_teaserEntry7_link,teaserbox_teaserEntry7_image,teaserbox_teaserEntry7_align,teaserbox_teaserEntry7_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser7_title">
-				<categoryname>teaserbox.teaser7</categoryname>
+			<option name="teaserbox_teaserEntry7_title">
+				<categoryname>teaserbox.teaserEntry7</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser7_link">
-				<categoryname>teaserbox.teaser7</categoryname>
+			<option name="teaserbox_teaserEntry7_link">
+				<categoryname>teaserbox.teaserEntry7</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser7_image">
-				<categoryname>teaserbox.teaser7</categoryname>
+			<option name="teaserbox_teaserEntry7_image">
+				<categoryname>teaserbox.teaserEntry7</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser7_align">
-				<categoryname>teaserbox.teaser7</categoryname>
+			<option name="teaserbox_teaserEntry7_align">
+				<categoryname>teaserbox.teaserEntry7</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser7_align.left
-center:wcf.acp.option.teaserbox_teaser7_align.center
-right:wcf.acp.option.teaserbox_teaser7_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry7_align.left
+center:wcf.acp.option.teaserbox_teaserEntry7_align.center
+right:wcf.acp.option.teaserbox_teaserEntry7_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser7_bgcolor">
-				<categoryname>teaserbox.teaser7</categoryname>
+			<option name="teaserbox_teaserEntry7_bgcolor">
+				<categoryname>teaserbox.teaserEntry7</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser8 -->
-			<option name="teaserbox_teaser8_active">
-				<categoryname>teaserbox.teaser8</categoryname>
+			<!-- teaserbox.teaserEntry8 -->
+			<option name="teaserbox_teaserEntry8_active">
+				<categoryname>teaserbox.teaserEntry8</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser8_title,teaserbox_teaser8_link,teaserbox_teaser8_image,teaserbox_teaser8_align,teaserbox_teaser8_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry8_title,teaserbox_teaserEntry8_link,teaserbox_teaserEntry8_image,teaserbox_teaserEntry8_align,teaserbox_teaserEntry8_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser8_title">
-				<categoryname>teaserbox.teaser8</categoryname>
+			<option name="teaserbox_teaserEntry8_title">
+				<categoryname>teaserbox.teaserEntry8</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser8_link">
-				<categoryname>teaserbox.teaser8</categoryname>
+			<option name="teaserbox_teaserEntry8_link">
+				<categoryname>teaserbox.teaserEntry8</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser8_image">
-				<categoryname>teaserbox.teaser8</categoryname>
+			<option name="teaserbox_teaserEntry8_image">
+				<categoryname>teaserbox.teaserEntry8</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser8_align">
-				<categoryname>teaserbox.teaser8</categoryname>
+			<option name="teaserbox_teaserEntry8_align">
+				<categoryname>teaserbox.teaserEntry8</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser8_align.left
-center:wcf.acp.option.teaserbox_teaser8_align.center
-right:wcf.acp.option.teaserbox_teaser8_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry8_align.left
+center:wcf.acp.option.teaserbox_teaserEntry8_align.center
+right:wcf.acp.option.teaserbox_teaserEntry8_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser8_bgcolor">
-				<categoryname>teaserbox.teaser8</categoryname>
+			<option name="teaserbox_teaserEntry8_bgcolor">
+				<categoryname>teaserbox.teaserEntry8</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser9 -->
-			<option name="teaserbox_teaser9_active">
-				<categoryname>teaserbox.teaser9</categoryname>
+			<!-- teaserbox.teaserEntry9 -->
+			<option name="teaserbox_teaserEntry9_active">
+				<categoryname>teaserbox.teaserEntry9</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser9_title,teaserbox_teaser9_link,teaserbox_teaser9_image,teaserbox_teaser9_align,teaserbox_teaser9_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry9_title,teaserbox_teaserEntry9_link,teaserbox_teaserEntry9_image,teaserbox_teaserEntry9_align,teaserbox_teaserEntry9_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser9_title">
-				<categoryname>teaserbox.teaser9</categoryname>
+			<option name="teaserbox_teaserEntry9_title">
+				<categoryname>teaserbox.teaserEntry9</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser9_link">
-				<categoryname>teaserbox.teaser9</categoryname>
+			<option name="teaserbox_teaserEntry9_link">
+				<categoryname>teaserbox.teaserEntry9</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser9_image">
-				<categoryname>teaserbox.teaser9</categoryname>
+			<option name="teaserbox_teaserEntry9_image">
+				<categoryname>teaserbox.teaserEntry9</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser9_align">
-				<categoryname>teaserbox.teaser9</categoryname>
+			<option name="teaserbox_teaserEntry9_align">
+				<categoryname>teaserbox.teaserEntry9</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser9_align.left
-center:wcf.acp.option.teaserbox_teaser9_align.center
-right:wcf.acp.option.teaserbox_teaser9_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry9_align.left
+center:wcf.acp.option.teaserbox_teaserEntry9_align.center
+right:wcf.acp.option.teaserbox_teaserEntry9_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser9_bgcolor">
-				<categoryname>teaserbox.teaser9</categoryname>
+			<option name="teaserbox_teaserEntry9_bgcolor">
+				<categoryname>teaserbox.teaserEntry9</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser10 -->
-			<option name="teaserbox_teaser10_active">
-				<categoryname>teaserbox.teaser10</categoryname>
+			<!-- teaserbox.teaserEntry10 -->
+			<option name="teaserbox_teaserEntry10_active">
+				<categoryname>teaserbox.teaserEntry10</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser10_title,teaserbox_teaser10_link,teaserbox_teaser10_image,teaserbox_teaser10_align,teaserbox_teaser10_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry10_title,teaserbox_teaserEntry10_link,teaserbox_teaserEntry10_image,teaserbox_teaserEntry10_align,teaserbox_teaserEntry10_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser10_title">
-				<categoryname>teaserbox.teaser10</categoryname>
+			<option name="teaserbox_teaserEntry10_title">
+				<categoryname>teaserbox.teaserEntry10</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser10_link">
-				<categoryname>teaserbox.teaser10</categoryname>
+			<option name="teaserbox_teaserEntry10_link">
+				<categoryname>teaserbox.teaserEntry10</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser10_image">
-				<categoryname>teaserbox.teaser10</categoryname>
+			<option name="teaserbox_teaserEntry10_image">
+				<categoryname>teaserbox.teaserEntry10</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser10_align">
-				<categoryname>teaserbox.teaser10</categoryname>
+			<option name="teaserbox_teaserEntry10_align">
+				<categoryname>teaserbox.teaserEntry10</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser10_align.left
-center:wcf.acp.option.teaserbox_teaser10_align.center
-right:wcf.acp.option.teaserbox_teaser10_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry10_align.left
+center:wcf.acp.option.teaserbox_teaserEntry10_align.center
+right:wcf.acp.option.teaserbox_teaserEntry10_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser10_bgcolor">
-				<categoryname>teaserbox.teaser10</categoryname>
+			<option name="teaserbox_teaserEntry10_bgcolor">
+				<categoryname>teaserbox.teaserEntry10</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser11 -->
-			<option name="teaserbox_teaser11_active">
-				<categoryname>teaserbox.teaser11</categoryname>
+			<!-- teaserbox.teaserEntry11 -->
+			<option name="teaserbox_teaserEntry11_active">
+				<categoryname>teaserbox.teaserEntry11</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser11_title,teaserbox_teaser11_link,teaserbox_teaser11_image,teaserbox_teaser11_align,teaserbox_teaser11_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry11_title,teaserbox_teaserEntry11_link,teaserbox_teaserEntry11_image,teaserbox_teaserEntry11_align,teaserbox_teaserEntry11_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser11_title">
-				<categoryname>teaserbox.teaser11</categoryname>
+			<option name="teaserbox_teaserEntry11_title">
+				<categoryname>teaserbox.teaserEntry11</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser11_link">
-				<categoryname>teaserbox.teaser11</categoryname>
+			<option name="teaserbox_teaserEntry11_link">
+				<categoryname>teaserbox.teaserEntry11</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser11_image">
-				<categoryname>teaserbox.teaser11</categoryname>
+			<option name="teaserbox_teaserEntry11_image">
+				<categoryname>teaserbox.teaserEntry11</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser11_align">
-				<categoryname>teaserbox.teaser11</categoryname>
+			<option name="teaserbox_teaserEntry11_align">
+				<categoryname>teaserbox.teaserEntry11</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser11_align.left
-center:wcf.acp.option.teaserbox_teaser11_align.center
-right:wcf.acp.option.teaserbox_teaser11_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry11_align.left
+center:wcf.acp.option.teaserbox_teaserEntry11_align.center
+right:wcf.acp.option.teaserbox_teaserEntry11_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser11_bgcolor">
-				<categoryname>teaserbox.teaser11</categoryname>
+			<option name="teaserbox_teaserEntry11_bgcolor">
+				<categoryname>teaserbox.teaserEntry11</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser12 -->
-			<option name="teaserbox_teaser12_active">
-				<categoryname>teaserbox.teaser12</categoryname>
+			<!-- teaserbox.teaserEntry12 -->
+			<option name="teaserbox_teaserEntry12_active">
+				<categoryname>teaserbox.teaserEntry12</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser12_title,teaserbox_teaser12_link,teaserbox_teaser12_image,teaserbox_teaser12_align,teaserbox_teaser12_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry12_title,teaserbox_teaserEntry12_link,teaserbox_teaserEntry12_image,teaserbox_teaserEntry12_align,teaserbox_teaserEntry12_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser12_title">
-				<categoryname>teaserbox.teaser12</categoryname>
+			<option name="teaserbox_teaserEntry12_title">
+				<categoryname>teaserbox.teaserEntry12</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser12_link">
-				<categoryname>teaserbox.teaser12</categoryname>
+			<option name="teaserbox_teaserEntry12_link">
+				<categoryname>teaserbox.teaserEntry12</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser12_image">
-				<categoryname>teaserbox.teaser12</categoryname>
+			<option name="teaserbox_teaserEntry12_image">
+				<categoryname>teaserbox.teaserEntry12</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser12_align">
-				<categoryname>teaserbox.teaser12</categoryname>
+			<option name="teaserbox_teaserEntry12_align">
+				<categoryname>teaserbox.teaserEntry12</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser12_align.left
-center:wcf.acp.option.teaserbox_teaser12_align.center
-right:wcf.acp.option.teaserbox_teaser12_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry12_align.left
+center:wcf.acp.option.teaserbox_teaserEntry12_align.center
+right:wcf.acp.option.teaserbox_teaserEntry12_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser12_bgcolor">
-				<categoryname>teaserbox.teaser12</categoryname>
+			<option name="teaserbox_teaserEntry12_bgcolor">
+				<categoryname>teaserbox.teaserEntry12</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser13 -->
-			<option name="teaserbox_teaser13_active">
-				<categoryname>teaserbox.teaser13</categoryname>
+			<!-- teaserbox.teaserEntry13 -->
+			<option name="teaserbox_teaserEntry13_active">
+				<categoryname>teaserbox.teaserEntry13</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser13_title,teaserbox_teaser13_link,teaserbox_teaser13_image,teaserbox_teaser13_align,teaserbox_teaser13_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry13_title,teaserbox_teaserEntry13_link,teaserbox_teaserEntry13_image,teaserbox_teaserEntry13_align,teaserbox_teaserEntry13_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser13_title">
-				<categoryname>teaserbox.teaser13</categoryname>
+			<option name="teaserbox_teaserEntry13_title">
+				<categoryname>teaserbox.teaserEntry13</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser13_link">
-				<categoryname>teaserbox.teaser13</categoryname>
+			<option name="teaserbox_teaserEntry13_link">
+				<categoryname>teaserbox.teaserEntry13</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser13_image">
-				<categoryname>teaserbox.teaser13</categoryname>
+			<option name="teaserbox_teaserEntry13_image">
+				<categoryname>teaserbox.teaserEntry13</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser13_align">
-				<categoryname>teaserbox.teaser13</categoryname>
+			<option name="teaserbox_teaserEntry13_align">
+				<categoryname>teaserbox.teaserEntry13</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser13_align.left
-center:wcf.acp.option.teaserbox_teaser13_align.center
-right:wcf.acp.option.teaserbox_teaser13_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry13_align.left
+center:wcf.acp.option.teaserbox_teaserEntry13_align.center
+right:wcf.acp.option.teaserbox_teaserEntry13_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser13_bgcolor">
-				<categoryname>teaserbox.teaser13</categoryname>
+			<option name="teaserbox_teaserEntry13_bgcolor">
+				<categoryname>teaserbox.teaserEntry13</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser14 -->
-			<option name="teaserbox_teaser14_active">
-				<categoryname>teaserbox.teaser14</categoryname>
+			<!-- teaserbox.teaserEntry14 -->
+			<option name="teaserbox_teaserEntry14_active">
+				<categoryname>teaserbox.teaserEntry14</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser14_title,teaserbox_teaser14_link,teaserbox_teaser14_image,teaserbox_teaser14_align,teaserbox_teaser14_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry14_title,teaserbox_teaserEntry14_link,teaserbox_teaserEntry14_image,teaserbox_teaserEntry14_align,teaserbox_teaserEntry14_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser14_title">
-				<categoryname>teaserbox.teaser14</categoryname>
+			<option name="teaserbox_teaserEntry14_title">
+				<categoryname>teaserbox.teaserEntry14</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser14_link">
-				<categoryname>teaserbox.teaser14</categoryname>
+			<option name="teaserbox_teaserEntry14_link">
+				<categoryname>teaserbox.teaserEntry14</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser14_image">
-				<categoryname>teaserbox.teaser14</categoryname>
+			<option name="teaserbox_teaserEntry14_image">
+				<categoryname>teaserbox.teaserEntry14</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser14_align">
-				<categoryname>teaserbox.teaser14</categoryname>
+			<option name="teaserbox_teaserEntry14_align">
+				<categoryname>teaserbox.teaserEntry14</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser14_align.left
-center:wcf.acp.option.teaserbox_teaser14_align.center
-right:wcf.acp.option.teaserbox_teaser14_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry14_align.left
+center:wcf.acp.option.teaserbox_teaserEntry14_align.center
+right:wcf.acp.option.teaserbox_teaserEntry14_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser14_bgcolor">
-				<categoryname>teaserbox.teaser14</categoryname>
+			<option name="teaserbox_teaserEntry14_bgcolor">
+				<categoryname>teaserbox.teaserEntry14</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser15 -->
-			<option name="teaserbox_teaser15_active">
-				<categoryname>teaserbox.teaser15</categoryname>
+			<!-- teaserbox.teaserEntry15 -->
+			<option name="teaserbox_teaserEntry15_active">
+				<categoryname>teaserbox.teaserEntry15</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser15_title,teaserbox_teaser15_link,teaserbox_teaser15_image,teaserbox_teaser15_align,teaserbox_teaser15_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry15_title,teaserbox_teaserEntry15_link,teaserbox_teaserEntry15_image,teaserbox_teaserEntry15_align,teaserbox_teaserEntry15_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser15_title">
-				<categoryname>teaserbox.teaser15</categoryname>
+			<option name="teaserbox_teaserEntry15_title">
+				<categoryname>teaserbox.teaserEntry15</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser15_link">
-				<categoryname>teaserbox.teaser15</categoryname>
+			<option name="teaserbox_teaserEntry15_link">
+				<categoryname>teaserbox.teaserEntry15</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser15_image">
-				<categoryname>teaserbox.teaser15</categoryname>
+			<option name="teaserbox_teaserEntry15_image">
+				<categoryname>teaserbox.teaserEntry15</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser15_align">
-				<categoryname>teaserbox.teaser15</categoryname>
+			<option name="teaserbox_teaserEntry15_align">
+				<categoryname>teaserbox.teaserEntry15</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser15_align.left
-center:wcf.acp.option.teaserbox_teaser15_align.center
-right:wcf.acp.option.teaserbox_teaser15_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry15_align.left
+center:wcf.acp.option.teaserbox_teaserEntry15_align.center
+right:wcf.acp.option.teaserbox_teaserEntry15_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser15_bgcolor">
-				<categoryname>teaserbox.teaser15</categoryname>
+			<option name="teaserbox_teaserEntry15_bgcolor">
+				<categoryname>teaserbox.teaserEntry15</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser16 -->
-			<option name="teaserbox_teaser16_active">
-				<categoryname>teaserbox.teaser16</categoryname>
+			<!-- teaserbox.teaserEntry16 -->
+			<option name="teaserbox_teaserEntry16_active">
+				<categoryname>teaserbox.teaserEntry16</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser16_title,teaserbox_teaser16_link,teaserbox_teaser16_image,teaserbox_teaser16_align,teaserbox_teaser16_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry16_title,teaserbox_teaserEntry16_link,teaserbox_teaserEntry16_image,teaserbox_teaserEntry16_align,teaserbox_teaserEntry16_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser16_title">
-				<categoryname>teaserbox.teaser16</categoryname>
+			<option name="teaserbox_teaserEntry16_title">
+				<categoryname>teaserbox.teaserEntry16</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser16_link">
-				<categoryname>teaserbox.teaser16</categoryname>
+			<option name="teaserbox_teaserEntry16_link">
+				<categoryname>teaserbox.teaserEntry16</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser16_image">
-				<categoryname>teaserbox.teaser16</categoryname>
+			<option name="teaserbox_teaserEntry16_image">
+				<categoryname>teaserbox.teaserEntry16</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser16_align">
-				<categoryname>teaserbox.teaser16</categoryname>
+			<option name="teaserbox_teaserEntry16_align">
+				<categoryname>teaserbox.teaserEntry16</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser16_align.left
-center:wcf.acp.option.teaserbox_teaser16_align.center
-right:wcf.acp.option.teaserbox_teaser16_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry16_align.left
+center:wcf.acp.option.teaserbox_teaserEntry16_align.center
+right:wcf.acp.option.teaserbox_teaserEntry16_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser16_bgcolor">
-				<categoryname>teaserbox.teaser16</categoryname>
+			<option name="teaserbox_teaserEntry16_bgcolor">
+				<categoryname>teaserbox.teaserEntry16</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser17 -->
-			<option name="teaserbox_teaser17_active">
-				<categoryname>teaserbox.teaser17</categoryname>
+			<!-- teaserbox.teaserEntry17 -->
+			<option name="teaserbox_teaserEntry17_active">
+				<categoryname>teaserbox.teaserEntry17</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser17_title,teaserbox_teaser17_link,teaserbox_teaser17_image,teaserbox_teaser17_align,teaserbox_teaser17_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry17_title,teaserbox_teaserEntry17_link,teaserbox_teaserEntry17_image,teaserbox_teaserEntry17_align,teaserbox_teaserEntry17_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser17_title">
-				<categoryname>teaserbox.teaser17</categoryname>
+			<option name="teaserbox_teaserEntry17_title">
+				<categoryname>teaserbox.teaserEntry17</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser17_link">
-				<categoryname>teaserbox.teaser17</categoryname>
+			<option name="teaserbox_teaserEntry17_link">
+				<categoryname>teaserbox.teaserEntry17</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser17_image">
-				<categoryname>teaserbox.teaser17</categoryname>
+			<option name="teaserbox_teaserEntry17_image">
+				<categoryname>teaserbox.teaserEntry17</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser17_align">
-				<categoryname>teaserbox.teaser17</categoryname>
+			<option name="teaserbox_teaserEntry17_align">
+				<categoryname>teaserbox.teaserEntry17</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser17_align.left
-center:wcf.acp.option.teaserbox_teaser17_align.center
-right:wcf.acp.option.teaserbox_teaser17_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry17_align.left
+center:wcf.acp.option.teaserbox_teaserEntry17_align.center
+right:wcf.acp.option.teaserbox_teaserEntry17_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser17_bgcolor">
-				<categoryname>teaserbox.teaser17</categoryname>
+			<option name="teaserbox_teaserEntry17_bgcolor">
+				<categoryname>teaserbox.teaserEntry17</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser18 -->
-			<option name="teaserbox_teaser18_active">
-				<categoryname>teaserbox.teaser18</categoryname>
+			<!-- teaserbox.teaserEntry18 -->
+			<option name="teaserbox_teaserEntry18_active">
+				<categoryname>teaserbox.teaserEntry18</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser18_title,teaserbox_teaser18_link,teaserbox_teaser18_image,teaserbox_teaser18_align,teaserbox_teaser18_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry18_title,teaserbox_teaserEntry18_link,teaserbox_teaserEntry18_image,teaserbox_teaserEntry18_align,teaserbox_teaserEntry18_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser18_title">
-				<categoryname>teaserbox.teaser18</categoryname>
+			<option name="teaserbox_teaserEntry18_title">
+				<categoryname>teaserbox.teaserEntry18</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser18_link">
-				<categoryname>teaserbox.teaser18</categoryname>
+			<option name="teaserbox_teaserEntry18_link">
+				<categoryname>teaserbox.teaserEntry18</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser18_image">
-				<categoryname>teaserbox.teaser18</categoryname>
+			<option name="teaserbox_teaserEntry18_image">
+				<categoryname>teaserbox.teaserEntry18</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser18_align">
-				<categoryname>teaserbox.teaser18</categoryname>
+			<option name="teaserbox_teaserEntry18_align">
+				<categoryname>teaserbox.teaserEntry18</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser13_align.left
-center:wcf.acp.option.teaserbox_teaser13_align.center
-right:wcf.acp.option.teaserbox_teaser13_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry13_align.left
+center:wcf.acp.option.teaserbox_teaserEntry13_align.center
+right:wcf.acp.option.teaserbox_teaserEntry13_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser18_bgcolor">
-				<categoryname>teaserbox.teaser18</categoryname>
+			<option name="teaserbox_teaserEntry18_bgcolor">
+				<categoryname>teaserbox.teaserEntry18</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser19 -->
-			<option name="teaserbox_teaser19_active">
-				<categoryname>teaserbox.teaser19</categoryname>
+			<!-- teaserbox.teaserEntry19 -->
+			<option name="teaserbox_teaserEntry19_active">
+				<categoryname>teaserbox.teaserEntry19</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser19_title,teaserbox_teaser19_link,teaserbox_teaser19_image,teaserbox_teaser19_align,teaserbox_teaser19_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry19_title,teaserbox_teaserEntry19_link,teaserbox_teaserEntry19_image,teaserbox_teaserEntry19_align,teaserbox_teaserEntry19_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser19_title">
-				<categoryname>teaserbox.teaser19</categoryname>
+			<option name="teaserbox_teaserEntry19_title">
+				<categoryname>teaserbox.teaserEntry19</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser19_link">
-				<categoryname>teaserbox.teaser19</categoryname>
+			<option name="teaserbox_teaserEntry19_link">
+				<categoryname>teaserbox.teaserEntry19</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser19_image">
-				<categoryname>teaserbox.teaser19</categoryname>
+			<option name="teaserbox_teaserEntry19_image">
+				<categoryname>teaserbox.teaserEntry19</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser19_align">
-				<categoryname>teaserbox.teaser19</categoryname>
+			<option name="teaserbox_teaserEntry19_align">
+				<categoryname>teaserbox.teaserEntry19</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser14_align.left
-center:wcf.acp.option.teaserbox_teaser14_align.center
-right:wcf.acp.option.teaserbox_teaser14_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry14_align.left
+center:wcf.acp.option.teaserbox_teaserEntry14_align.center
+right:wcf.acp.option.teaserbox_teaserEntry14_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser19_bgcolor">
-				<categoryname>teaserbox.teaser19</categoryname>
+			<option name="teaserbox_teaserEntry19_bgcolor">
+				<categoryname>teaserbox.teaserEntry19</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>
 				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
 			</option>
 			
-			<!-- teaserbox.teaser20 -->
-			<option name="teaserbox_teaser20_active">
-				<categoryname>teaserbox.teaser20</categoryname>
+			<!-- teaserbox.teaserEntry20 -->
+			<option name="teaserbox_teaserEntry20_active">
+				<categoryname>teaserbox.teaserEntry20</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 				<showorder>1</showorder>
-				<enableoptions>teaserbox_teaser20_title,teaserbox_teaser20_link,teaserbox_teaser20_image,teaserbox_teaser20_align,teaserbox_teaser20_bgcolor</enableoptions>
+				<enableoptions>teaserbox_teaserEntry20_title,teaserbox_teaserEntry20_link,teaserbox_teaserEntry20_image,teaserbox_teaserEntry20_align,teaserbox_teaserEntry20_bgcolor</enableoptions>
 			</option>
-			<option name="teaserbox_teaser20_title">
-				<categoryname>teaserbox.teaser20</categoryname>
+			<option name="teaserbox_teaserEntry20_title">
+				<categoryname>teaserbox.teaserEntry20</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>2</showorder>
 				<validationpattern><![CDATA[^.{0,30}$]]></validationpattern>
 			</option>
-			<option name="teaserbox_teaser20_link">
-				<categoryname>teaserbox.teaser20</categoryname>
+			<option name="teaserbox_teaserEntry20_link">
+				<categoryname>teaserbox.teaserEntry20</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>3</showorder>
 			</option>
-			<option name="teaserbox_teaser20_image">
-				<categoryname>teaserbox.teaser20</categoryname>
+			<option name="teaserbox_teaserEntry20_image">
+				<categoryname>teaserbox.teaserEntry20</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
-			<option name="teaserbox_teaser20_align">
-				<categoryname>teaserbox.teaser20</categoryname>
+			<option name="teaserbox_teaserEntry20_align">
+				<categoryname>teaserbox.teaserEntry20</categoryname>
 				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaser15_align.left
-center:wcf.acp.option.teaserbox_teaser15_align.center
-right:wcf.acp.option.teaserbox_teaser15_align.right]]></selectoptions>
+				<selectoptions><![CDATA[left:wcf.acp.option.teaserbox_teaserEntry15_align.left
+center:wcf.acp.option.teaserbox_teaserEntry15_align.center
+right:wcf.acp.option.teaserbox_teaserEntry15_align.right]]></selectoptions>
 				<defaultvalue>left</defaultvalue>
 				<showorder>5</showorder>
 			</option>
-			<option name="teaserbox_teaser20_bgcolor">
-				<categoryname>teaserbox.teaser20</categoryname>
+			<option name="teaserbox_teaserEntry20_bgcolor">
+				<categoryname>teaserbox.teaserEntry20</categoryname>
 				<optiontype>colorchooser</optiontype>
 				<defaultvalue>#fff</defaultvalue>
 				<showorder>6</showorder>

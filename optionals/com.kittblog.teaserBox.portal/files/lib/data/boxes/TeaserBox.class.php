@@ -27,15 +27,15 @@ class TeaserBox extends PortalBox implements StandardPortalBox {
 		if (!TEASERBOX_PORTAL_ACTIVE || !WCF::getUser()->getPermission('user.profile.teaserBox.canView') || WCF::getUser()->getPermission('user.profile.teaserBox.canDisable') && WCF::getUser()->getUserOption('disableTeaserBox')) return;
 
 		for ($i = 1; $i <= 20; $i++) {
-			if (!constant('TEASERBOX_TEASER' . $i . '_ACTIVE'))
+			if (!constant('TEASERBOX_TEASERENTRY' . $i . '_ACTIVE'))
 				continue;
 
 			$this->teaserBoxData[] = array(
-				'link' => constant('TEASERBOX_TEASER' . $i . '_LINK'),
-				'title' => constant('TEASERBOX_TEASER' . $i . '_TITLE'),
-				'image' => constant('TEASERBOX_TEASER' . $i . '_IMAGE'),
-				'align' => constant('TEASERBOX_TEASER' . $i . '_ALIGN'),
-				'bgcolor' => constant('TEASERBOX_TEASER' . $i . '_BGCOLOR')
+				'link' => constant('TEASERBOX_TEASERENTRY' . $i . '_LINK'),
+				'title' => constant('TEASERBOX_TEASERENTRY' . $i . '_TITLE'),
+				'image' => constant('TEASERBOX_TEASERENTRY' . $i . '_IMAGE'),
+				'align' => constant('TEASERBOX_TEASERENTRY' . $i . '_ALIGN'),
+				'bgcolor' => constant('TEASERBOX_TEASERENTRY' . $i . '_BGCOLOR')
 			);
 		}
 

@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>TeaserBox</packagename>
 		<packagedescription><![CDATA[Fügt dem WoltLab® Community Framework einen Teaser hinzu, in dem bis zu 20 Grafiken eingebunden werden können.]]></packagedescription>
-		<version>1.2.0 pl 2</version>
-		<date>2012-09-28</date>
+		<version>1.2.0 pl 4</version>
+		<date>2012-12-08</date>
 		<plugin>com.woltlab.wcf.data.page</plugin>
 		<isunique>1</isunique>
 	</packageinformation>
@@ -45,7 +45,7 @@
 		<languages languagecode="en">en.xml</languages>
 	</instructions>
 
-	<instructions type="update" fromversion="*">
+	<instructions type="update" fromversion="1.1.*">
 		<!-- files -->
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
@@ -54,6 +54,36 @@
 		<options>options.xml</options>
 		<groupoptions>groupoptions.xml</groupoptions>
 		<useroptions>useroptions.xml</useroptions>
+
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+
+	<instructions type="update" fromversion="1.2.*">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+
+		<!-- config -->
+		<options>options.xml</options>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<useroptions>useroptions.xml</useroptions>
+
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+
+	<instructions type="update" fromversion="1.2.0 pl 3">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+
+		<!-- config -->
+		<options>options.xml</options>
 
 		<!-- languages -->
 		<languages languagecode="de">de.xml</languages>

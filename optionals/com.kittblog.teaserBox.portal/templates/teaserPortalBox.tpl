@@ -43,14 +43,14 @@
 		{/if}
 		<div class="teaserBoxContent" id="{@$box->getStatusVariable()}">
 			<ul class="teaserBoxNavigation">
-				{foreach from=$box->teaserBoxData item='teaser' key='teaserNr'}
-					<li class="teaserNav{if $teaserNr == 0} containerHead activeTeaser{/if}" id="teaserNav_{$teaserNr}"><a href="{$teaser.link}" onmouseover="showTeaser('{$teaserNr}');" onmouseout="startSlideShow(firstFrame,(lastFrame-1),delay);" title="{$teaser.title}"><span>{$teaser.title}</span></a></li>
+				{foreach from=$box->teaserBoxData item='teaserEntry' key='teaserNr'}
+					<li class="teaserNav{if $teaserNr == 0} containerHead activeTeaser{/if}" id="teaserNav_{$teaserNr}"><a href="{$teaserEntry.link}" onmouseover="showTeaser('{$teaserNr}');" onmouseout="startSlideShow(firstFrame,(lastFrame-1),delay);" title="{$teaserEntry.title}"><span>{$teaserEntry.title}</span></a></li>
 				{/foreach}
 			</ul>
 
 			<ul class="teaserBoxTeaser">
-				{foreach from=$box->teaserBoxData item='teaser' key='teaserNr'}
-				<li id="teaserBox_{$teaserNr}" style="background: {@$teaser.bgcolor} url('{$teaser.image}') {$teaser.align} top no-repeat; display: {if $teaserNr == 0}block{else}none{/if};"><a href="{$teaser.link}" title="{$teaser.title}">&nbsp;</a></li>
+				{foreach from=$box->teaserBoxData item='teaserEntry' key='teaserNr'}
+				<li id="teaserBox_{$teaserNr}" style="background: {@$teaserEntry.bgcolor} url('{$teaserEntry.image}') {$teaserEntry.align} top no-repeat; display: {if $teaserNr == 0}block{else}none{/if};"><a href="{$teaserEntry.link}" title="{$teaserEntry.title}">&nbsp;</a></li>
 				{/foreach}
 			</ul>
 		</div>
