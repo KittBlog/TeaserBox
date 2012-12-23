@@ -22,7 +22,7 @@ WCF::getDB()->sendQuery($sql);
 // delete wrong language category
 $sql = "DELETE	FROM wcf".WCF_N."_language_category
 	WHERE	languageCategoryID = ".$row['languageCategoryID'];
-WCF::getDB()->sendUnbufferedQuery($sql);
+WCF::getDB()->sendQuery($sql);
 
 // clear cache
 require_once(WCF_DIR.'lib/system/language/Language.class.php');
