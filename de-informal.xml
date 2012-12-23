@@ -401,7 +401,7 @@
 		<item name="wcf.acp.option.teaserbox_teaserEntry20_bgcolor.description"><![CDATA[Stelle hier die Hintergrundfarbe des Teasers ein.]]></item>
 	</category>
 
-	<category name="wcf.acp.group.option">
+	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.user.profile.teaserBox.canView"><![CDATA[Kann TeaserBox sehen]]></item>
 		<item name="wcf.acp.group.option.user.profile.teaserBox.canView.description"><![CDATA[Mitglieder dieser Benutzergruppe können die TeaserBox sehen.]]></item>
 		<item name="wcf.acp.group.option.user.profile.teaserBox.canDisable"><![CDATA[Kann TeaserBox deaktivieren]]></item>
