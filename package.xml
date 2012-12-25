@@ -25,7 +25,7 @@
 	</requiredpackages>
 
 	<excludedpackages>
-		<excluededpackage>com.alexanderzwei.wbb.teaserbox</excluededpackage>
+		<excludedpackage>com.alexanderzwei.wbb.teaserbox</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
